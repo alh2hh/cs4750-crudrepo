@@ -1,0 +1,32 @@
+{
+  "name": "cs4750-crudrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alh2hh/cs4750-crudrepo.git"
+  },
+  "keywords": [],
+  "author": "Aidan Hijazi-Klop, Lewi Abseno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alh2hh/cs4750-crudrepo/issues"
+  },
+  "homepage": "https://github.com/alh2hh/cs4750-crudrepo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
